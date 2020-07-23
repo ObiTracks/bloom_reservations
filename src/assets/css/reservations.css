@@ -1,0 +1,20 @@
+.spots-available{
+    width: 100%;
+    max-width: 40rem;
+    height: 25rem;
+}
+.spots-available > div{
+    width: 100%;
+    height: 9rem;
+    background-color: blue;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.spots-available > h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.edit_people{
+    width: 50%;
+    height: auto
+    display: flex;
+}

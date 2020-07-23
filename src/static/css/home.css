@@ -1,0 +1,47 @@
+
+/* The pools current availability*/
+.slots{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.slots > span{
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.time_slot{
+    flex-grow: 1;
+    height: 100%;
+    background: linear-gradient(to bottom right, #ed213a, #b53425);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 2px;
+}
+
+
+/* The users reservation card */
+.reservation {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.reservation > h3, h5 {
+    margin: 10px;
+}
+
+/* The users statistics card */
+.statistics {
+    width: 38%;
+    height: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
